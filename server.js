@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 
 // dotenv.config( { path: './.env.local' } );
-dotenv.config( { } );
+dotenv.config();
 const ejs = require('ejs');
 const app = express();
 const http = require('http');
